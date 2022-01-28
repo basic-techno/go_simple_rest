@@ -1,4 +1,4 @@
-package main
+package min
 
 import (
 	"go_simple_rest/controllers"
@@ -21,7 +21,7 @@ type Route struct {
 
 var routes []Route
 
-func main() {
+func min() {
 	err := godotenv.Load()
 	if err != nil {
 		panic(err)
